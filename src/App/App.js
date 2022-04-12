@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import NewsCard from '../NewsCard/NewsCard';
 /* A. Create a component like in a sketch folder that includes:
             1. component with fixed height and width. Add box shadow to your component (you can see an example example2904.png)
             2. image, with fixed height and width,  should be with zoom animation on hover
@@ -20,7 +21,9 @@ You need to make it more dynamic and flexible.
 function App() {
 
   return(
-    <div></div>
+    <main className='main-container'>
+      <NewsCard/>
+    </main>
   )
 }
 
