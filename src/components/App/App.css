@@ -18,3 +18,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+
+
+
+/* media quiries */
+
+@media only screen and (max-width: 850px){
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    min-height: 391px;
+  }
+}
